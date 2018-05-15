@@ -35,7 +35,7 @@ public class Main {
         }
 
         sortedArray = InsertionSort.insertionSort(useArray);
-        System.out.println("\nSelection Sort");
+        System.out.println("\nInsertion Sort");
         for (int item:sortedArray){
             System.out.print(" " + item);
         }

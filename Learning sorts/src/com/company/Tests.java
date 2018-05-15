@@ -5,6 +5,8 @@ import org.junit.Assert;
 import static org.junit.Assert.*;
 
 public class Tests {
+
+    //Bubble Sort
     @org.junit.Test
     public void BubbleSortTest(){
         int[] sortedArray1 = {0,1,2,2,3,3,3,4,5,5,6,8,8,9,10,11,11,12};
@@ -18,6 +20,7 @@ public class Tests {
         Assert.assertArrayEquals(sortedArray2, BubbleSort.bubbleSort(testArray3));
     }
 
+    //Selection Sort
     @org.junit.Test
     public void SelectionSortTest(){
         int[] sortedArray1 = {0,1,2,2,3,3,3,4,5,5,6,8,8,9,10,11,11,12};
@@ -31,6 +34,7 @@ public class Tests {
         Assert.assertArrayEquals(sortedArray2, SelectionSort.selectionSort(testArray3));
     }
 
+    //Insertion Sort
     @org.junit.Test
     public void InsertionSortTest(){
         int[] sortedArray1 = {0,1,2,2,3,3,3,4,5,5,6,8,8,9,10,11,11,12};
