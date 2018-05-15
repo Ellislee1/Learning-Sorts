@@ -3,40 +3,26 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-        int[] useArray = GenRandomNumbers.randomNumbers(100,-10,25);
+        int[] useArray = getRandom();
         int[] sortedArray;
-        System.out.println("UnSorted");
-        for (int item:useArray){
-            System.out.print(" " + item);
-        }
+        outPut(BubbleSort.bubbleSort(useArray),"Bubble Sort");
 
-        sortedArray = BubbleSort.bubbleSort(useArray);
-        System.out.println("\nBubble Sort");
-        for (int item:sortedArray){
-            System.out.print(" " + item);
-        }
+        useArray = getRandom();
+        outPut(SelectionSort.selectionSort(useArray), "Selection Sort");
 
-        useArray = GenRandomNumbers.randomNumbers(100,-10,25);
-        System.out.println("\nUnSorted");
-        for (int item:useArray){
-            System.out.print(" " + item);
-        }
+        useArray = getRandom();
+        outPut(InsertionSort.insertionSort(useArray), "Insertion Sort");
+    }
 
-        sortedArray = SelectionSort.selectionSort(useArray);
-        System.out.println("\nSelection Sort");
-        for (int item:sortedArray){
-            System.out.print(" " + item);
-        }
+    private static int[] getRandom(){
+        int[] thisArray = GenRandomNumbers.randomNumbers(10,-10,25);
+        outPut(thisArray, "Unsorted");
+        return thisArray;
+    }
 
-        useArray = GenRandomNumbers.randomNumbers(100,-10,25);
-        System.out.println("\nUnSorted");
-        for (int item:useArray){
-            System.out.print(" " + item);
-        }
-
-        sortedArray = InsertionSort.insertionSort(useArray);
-        System.out.println("\nInsertion Sort");
-        for (int item:sortedArray){
+    private static void outPut(int[] thisArray, String arrayType){
+        System.out.println("\n" + arrayType);
+        for (int item:thisArray){
             System.out.print(" " + item);
         }
     }

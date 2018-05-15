@@ -40,13 +40,9 @@ public class Tests {
         int[] testArray1 =  {0,2,1,9,6,8,11,2,3,3,4,12,11,8,3,10,5,5};
         int[] testArray2 =  {12,11,11,10,9,8,8,6,5,5,4,3,3,3,2,2,1,0};
         int[] testArray3 = {77,77,77,77,77,77,77,77,77,77,77,77,77,-1};
-        System.out.println("Test1");
         Assert.assertArrayEquals(sortedArray1, InsertionSort.insertionSort(testArray1));
-        System.out.println("Test2");
         Assert.assertArrayEquals(sortedArray1, InsertionSort.insertionSort(sortedArray1));
-        System.out.println("Test3");
         Assert.assertArrayEquals(sortedArray1, InsertionSort.insertionSort(testArray2));
-        System.out.println("Test4");
         Assert.assertArrayEquals(sortedArray2, InsertionSort.insertionSort(testArray3));
     }
 
