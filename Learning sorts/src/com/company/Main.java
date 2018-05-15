@@ -17,6 +17,8 @@ public class Main {
         //Insert into the correct position in the array
         useArray = getRandom();
         outPut(InsertionSort.insertionSort(useArray), "Insertion Sort");
+
+        //Shell Sort
     }
 
     private static int[] getRandom(){
