@@ -5,11 +5,16 @@ public class Main {
     public static void main(String[] args) {
         int[] useArray = getRandom();
         int[] sortedArray;
+
+        //You should know what this one is
         outPut(BubbleSort.bubbleSort(useArray),"Bubble Sort");
 
+        /*Select i in array, look for next smallest, swap i++
+        * repeat until sorted*/
         useArray = getRandom();
         outPut(SelectionSort.selectionSort(useArray), "Selection Sort");
 
+        //Insert into the correct position in the array
         useArray = getRandom();
         outPut(InsertionSort.insertionSort(useArray), "Insertion Sort");
     }
