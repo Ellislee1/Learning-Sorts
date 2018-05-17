@@ -20,10 +20,14 @@ public class Main {
         //Shell Sort
         useArray = getRandom();
         outPut(ShellSort.shellSort(useArray, (useArray.length)/2), "Shell Sort");
+
+        //Heap Sort
+        useArray = getRandom();
+        outPut(HeapSort.heapSort(useArray), "Heap Sort");
     }
 
     private static int[] getRandom(){
-        int[] thisArray = GenRandomNumbers.randomNumbers(10,-10,25);
+        int[] thisArray = GenRandomNumbers.randomNumbers(50,0,10);
         outPut(thisArray, "Unsorted");
         return thisArray;
     }
