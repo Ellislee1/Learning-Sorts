@@ -24,6 +24,10 @@ public class Main {
         //Heap Sort
         useArray = getRandom();
         outPut(HeapSort.heapSort(useArray), "Heap Sort");
+
+        //Quick Sort
+        useArray = getRandom();
+        outPut(QuickSort.quickSort(useArray,0, useArray.length-1), "Quick Sort");
     }
 
     private static int[] getRandom(){

@@ -12,11 +12,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+            <state relative-caret-position="391">
+              <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
               <folding>
                 <element signature="method#outPut#0;class#Main#0" />
               </folding>
@@ -24,26 +24,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Tests.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="QuickSort.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/QuickSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Tests.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/Tests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="70" column="64" selection-start-line="70" selection-start-column="64" selection-end-line="70" selection-end-column="64" />
+            <state relative-caret-position="383">
+              <caret line="87" column="100" selection-start-line="87" selection-start-column="100" selection-end-line="87" selection-end-column="100" />
               <folding>
                 <element signature="method#BubbleSortTest#0;class#Tests#0" />
                 <element signature="method#SelectionSortTest#0;class#Tests#0" />
                 <element signature="method#InsertionSortTest#0;class#Tests#0" />
                 <element signature="method#ShellSortTest#0;class#Tests#0" />
+                <element signature="method#HeapSortTest#0;class#Tests#0" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HeapSort.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/HeapSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="17" column="33" lean-forward="true" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -65,13 +66,14 @@
         <option value="$PROJECT_DIR$/src/com/company/GenRandomNumbers.java" />
         <option value="$PROJECT_DIR$/src/com/company/ShellSort.java" />
         <option value="$PROJECT_DIR$/src/com/company/InsertionSort.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Tests.java" />
         <option value="$PROJECT_DIR$/src/com/company/HeapSort.java" />
         <option value="$PROJECT_DIR$/src/com/company/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/company/QuickSort.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Tests.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-7" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
@@ -81,7 +83,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -104,8 +107,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -124,7 +126,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Tests">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.company.Main" />
       <module name="Learning sorts" />
@@ -201,7 +203,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="Tests.InsertionSortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Tests.QuickSortTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Learning sorts" />
       <extension name="coverage">
         <pattern>
@@ -213,7 +215,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.company" />
       <option name="MAIN_CLASS_NAME" value="com.company.Tests" />
-      <option name="METHOD_NAME" value="InsertionSortTest" />
+      <option name="METHOD_NAME" value="QuickSortTests" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -242,17 +244,17 @@
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="JUnit.Tests" />
-      <item itemvalue="JUnit.Tests.InsertionSortTest" />
       <item itemvalue="JUnit.Tests.HeapSorttest" />
       <item itemvalue="JUnit.Tests.HeapSortTest" />
+      <item itemvalue="JUnit.Tests.QuickSortTests" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Tests" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.Tests" />
+        <item itemvalue="JUnit.Tests.QuickSortTests" />
         <item itemvalue="JUnit.Tests.HeapSortTest" />
         <item itemvalue="JUnit.Tests.HeapSorttest" />
-        <item itemvalue="JUnit.Tests.InsertionSortTest" />
       </list>
     </recent_temporary>
   </component>
@@ -302,23 +304,22 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32893288" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50053304" side_tool="true" visible="true" weight="0.4640523" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50053304" side_tool="true" visible="true" weight="0.46864685" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.4640523" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49796748" visible="true" weight="0.13272922" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49796748" visible="true" weight="0.27461708" />
       <window_info id="Structure" order="1" sideWeight="0.5020325" side_tool="true" weight="0.13272922" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -330,6 +331,8 @@
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32893288" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -341,6 +344,37 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+          <folding>
+            <element signature="method#outPut#0;class#Main#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Tests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="70" column="64" selection-start-line="70" selection-start-column="64" selection-end-line="70" selection-end-column="64" />
+          <folding>
+            <element signature="method#BubbleSortTest#0;class#Tests#0" />
+            <element signature="method#SelectionSortTest#0;class#Tests#0" />
+            <element signature="method#InsertionSortTest#0;class#Tests#0" />
+            <element signature="method#ShellSortTest#0;class#Tests#0" />
+            <element signature="method#HeapSortTest#0;class#Tests#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/HeapSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="33" lean-forward="true" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -367,6 +401,7 @@
             <element signature="method#SelectionSortTest#0;class#Tests#0" />
             <element signature="method#InsertionSortTest#0;class#Tests#0" />
             <element signature="method#ShellSortTest#0;class#Tests#0" />
+            <element signature="method#HeapSortTest#0;class#Tests#0" />
           </folding>
         </state>
       </provider>
@@ -397,6 +432,7 @@
             <element signature="method#SelectionSortTest#0;class#Tests#0" />
             <element signature="method#InsertionSortTest#0;class#Tests#0" />
             <element signature="method#ShellSortTest#0;class#Tests#0" />
+            <element signature="method#HeapSortTest#0;class#Tests#0" />
           </folding>
         </state>
       </provider>
@@ -452,30 +488,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/HeapSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="17" column="33" lean-forward="true" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Tests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="70" column="64" selection-start-line="70" selection-start-column="64" selection-end-line="70" selection-end-column="64" />
-          <folding>
-            <element signature="method#BubbleSortTest#0;class#Tests#0" />
-            <element signature="method#SelectionSortTest#0;class#Tests#0" />
-            <element signature="method#InsertionSortTest#0;class#Tests#0" />
-            <element signature="method#ShellSortTest#0;class#Tests#0" />
-          </folding>
+        <state relative-caret-position="289">
+          <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+        <state relative-caret-position="391">
+          <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
           <folding>
             <element signature="method#outPut#0;class#Main#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/QuickSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Tests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="87" column="100" selection-start-line="87" selection-start-column="100" selection-end-line="87" selection-end-column="100" />
+          <folding>
+            <element signature="method#BubbleSortTest#0;class#Tests#0" />
+            <element signature="method#SelectionSortTest#0;class#Tests#0" />
+            <element signature="method#InsertionSortTest#0;class#Tests#0" />
+            <element signature="method#ShellSortTest#0;class#Tests#0" />
+            <element signature="method#HeapSortTest#0;class#Tests#0" />
           </folding>
         </state>
       </provider>
